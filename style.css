@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+.menu{
+	text-align: center;
+	background-color: dodgerblue;
+	height: 90px;
+	line-height: 90px; 
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 10px;
+	transition: 0.5s;
+}
+.menu ul li a:hover{
+	color: coral;
+	font-size: 22px;
+	transition: 0.5s;
+}
+
+/*back pic css part*/
+.image{
+	background-image: url(green.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	height: 90vh;
+}
+
+.image h1{
+	font-size: 35px;
+	text-align: left;
+	color: white;
+	padding-top: 380px;
+	padding-left: 120px;
+}
+.icons{
+	text-align: left;
+	margin-top: 20px;
+	margin-right: 120px;
+
+}
+.icons ul li{
+	display: inline-block;
+}
+.icons ul li a i{
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	background-color: dodgerblue;
+	border-radius: 100%;
+	line-height: 50px;
+	color: white;
+	margin: 0 10px;
+	text-align: center;
+	transition: 0.5s;
+}
+.icons ul li a i:hover{
+	color: black;
+	background-color: springgreen;
+	transition: 0.5s;
+	transform: scale(1.2);
+
+}
